@@ -26,37 +26,27 @@
 .my-border {border: 2px solid purple;}
 .my-border2 {border: 2px solid dodgerblue;}
 
-/* Min-H./Height for Layout
+/* Min-Height for Layout
 DELETE BEFORE TO INSERT CONTENT */
-.h-100 {height: 100%;}
-.min-h-50 {min-height: 50px;}
 .min-h-100 {min-height: 100px;}
-.min-h-250 {min-height: 250px;}
+
 
 
 /*********** Utilities ***********/
-.c-primary {color: var(--primary);}
-.c-secondary {color: var(--secondary);}
+.my-c-primary {color: var(--primary);}
+.my-c-secondary {color: var(--secondary);}
 
-.bg-primary {background-color: var(--primary);}
-.bg-secondary {background-color: var(--secondary);}
-.bg-tertiary {background-color: var(--tertiary);}
-.bg-scarlet {background-color: var(--scarlet);}
-.bg-somber {background-color: var(--somber);}
-.bg-obsidian {background-color: var(--obsidian);}
-.bg-lightblue {background-color: var(--lightblue);}
-.bg-blue {background-color: var(--blue);}
-.bg-sand {background-color: var(--sand);}
+.my-bg-primary {background-color: var(--primary);}
+.my-bg-secondary {background-color: var(--secondary);}
+.my-bg-tertiary {background-color: var(--tertiary);}
+.my-bg-scarlet {background-color: var(--scarlet);}
+.my-bg-somber {background-color: var(--somber);}
+.my-bg-obsidian {background-color: var(--obsidian);}
+.my-bg-lightblue {background-color: var(--lightblue);}
+.my-bg-blue {background-color: var(--blue);}
+.my-bg-sand {background-color: var(--sand);}
 
 
 /*********** Header ***********/
-header {background-color: var(--secondary);}
-
 #navbar {height: 80px;}
 
-#jumbotron {background-color: var(--primary);}
-
-
-/*********** Main ***********/
-
-#about {background-color: var(--primary);}
