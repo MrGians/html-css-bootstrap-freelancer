@@ -4,9 +4,42 @@
     --white: #FFF;
     --grey: #999;
     --black: #000;
-    --primary: #;
-    --secondary: #;
+    --primary: #1ABC9C;
+    --secondary: #2C3E50;
+    --tertiary: #3A546D;
+
+    --scarlet: #BA4B63;
+    --somber: #1EA4B6;
+    --obsidian: #140F0F;
+    --lightblue: #1C83C1;
+    --blue: #0E38B5;
+    --sand: #CCB2A3;
 }
+
+/* Layout Row/Col */
+.debug .row {border: 2px dashed red;}
+.debug .row > [class^="col"] {border: 2px solid yellow;}
+/* Layout Nested Row/Col */
+.debug .row .row {border: 2px dashed orangered;}
+.debug [class^="col"] [class^="col"] {border: 2px solid green;}
+/* Layout Others Elements */
+.my-border {border: 2px solid purple;}
+.my-border2 {border: 2px solid dodgerblue;}
+
+/* Min-H./Height for Layout
+DELETE BEFORE TO INSERT CONTENT */
+.h-100 {height: 100%;}
+.min-h-50 {min-height: 50px;}
+.min-h-100 {min-height: 100px;}
+.min-h-250 {min-height: 250px;}
 
 
 /*********** Generics ***********/
+
+
+/*********** Header ***********/
+header {background-color: var(--secondary);}
+
+#navbar {height: 80px;}
+
+#jumbotron {background-color: var(--primary);}
