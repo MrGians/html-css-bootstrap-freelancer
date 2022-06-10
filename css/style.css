@@ -14,3 +14,17 @@
 .cs-bg-primary {background-color: var(--primary);}
 .cs-bg-secondary {background-color: var(--secondary);}
 .cs-bg-tertiary {background-color: var(--tertiary);}
+
+
+/* Line Before & After Star Icon */
+.cs-line::before, .cs-line::after {
+    content: " ";
+    display: inline-block;
+    height: 5px;
+    width: 15%;
+    border-radius: 5px;
+    background-color: var(--secondary);
+}
+
+.cs-line-light::before, 
+.cs-line-light::after {background-color: white;}
