@@ -1,35 +1,10 @@
 
 /*********** Palette color ***********/
 :root{
-    --white: #FFF;
-    --grey: #999;
-    --black: #000;
     --primary: #1ABC9C;
     --secondary: #2C3E50;
     --tertiary: #3A546D;
-
-    --scarlet: #BA4B63;
-    --somber: #1EA4B6;
-    --obsidian: #140F0F;
-    --lightblue: #1C83C1;
-    --blue: #0E38B5;
-    --sand: #CCB2A3;
 }
-
-/* Layout Row/Col */
-.debug .row {border: 2px dashed red;}
-.debug .row > [class^="col"] {border: 2px solid yellow;}
-/* Layout Nested Row/Col */
-.debug .row .row {border: 2px dashed orangered;}
-.debug [class^="col"] [class^="col"] {border: 2px solid green;}
-/* Layout Others Elements */
-.cs-border {border: 2px solid purple;}
-.cs-border-2 {border: 2px solid dodgerblue;}
-
-/* Min-Height for Layout
-DELETE BEFORE TO INSERT CONTENT */
-.min-h-100 {min-height: 100px;}
-
 
 
 /*********** Utilities ***********/
@@ -39,12 +14,3 @@ DELETE BEFORE TO INSERT CONTENT */
 .cs-bg-primary {background-color: var(--primary);}
 .cs-bg-secondary {background-color: var(--secondary);}
 .cs-bg-tertiary {background-color: var(--tertiary);}
-.cs-bg-scarlet {background-color: var(--scarlet);}
-.cs-bg-somber {background-color: var(--somber);}
-.cs-bg-obsidian {background-color: var(--obsidian);}
-.cs-bg-lightblue {background-color: var(--lightblue);}
-.cs-bg-blue {background-color: var(--blue);}
-.cs-bg-sand {background-color: var(--sand);}
-
-
-
