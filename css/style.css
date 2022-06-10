@@ -23,8 +23,8 @@
 .debug .row .row {border: 2px dashed orangered;}
 .debug [class^="col"] [class^="col"] {border: 2px solid green;}
 /* Layout Others Elements */
-.my-border {border: 2px solid purple;}
-.my-border2 {border: 2px solid dodgerblue;}
+.cs-border {border: 2px solid purple;}
+.cs-border-2 {border: 2px solid dodgerblue;}
 
 /* Min-Height for Layout
 DELETE BEFORE TO INSERT CONTENT */
@@ -33,18 +33,18 @@ DELETE BEFORE TO INSERT CONTENT */
 
 
 /*********** Utilities ***********/
-.my-c-primary {color: var(--primary);}
-.my-c-secondary {color: var(--secondary);}
+.cs-c-primary {color: var(--primary);}
+.cs-c-secondary {color: var(--secondary);}
 
-.my-bg-primary {background-color: var(--primary);}
-.my-bg-secondary {background-color: var(--secondary);}
-.my-bg-tertiary {background-color: var(--tertiary);}
-.my-bg-scarlet {background-color: var(--scarlet);}
-.my-bg-somber {background-color: var(--somber);}
-.my-bg-obsidian {background-color: var(--obsidian);}
-.my-bg-lightblue {background-color: var(--lightblue);}
-.my-bg-blue {background-color: var(--blue);}
-.my-bg-sand {background-color: var(--sand);}
+.cs-bg-primary {background-color: var(--primary);}
+.cs-bg-secondary {background-color: var(--secondary);}
+.cs-bg-tertiary {background-color: var(--tertiary);}
+.cs-bg-scarlet {background-color: var(--scarlet);}
+.cs-bg-somber {background-color: var(--somber);}
+.cs-bg-obsidian {background-color: var(--obsidian);}
+.cs-bg-lightblue {background-color: var(--lightblue);}
+.cs-bg-blue {background-color: var(--blue);}
+.cs-bg-sand {background-color: var(--sand);}
 
 
 /*********** Header ***********/
