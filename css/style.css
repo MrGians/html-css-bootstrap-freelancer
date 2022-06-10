@@ -28,3 +28,6 @@
 
 .cs-line-light::before, 
 .cs-line-light::after {background-color: white;}
+
+/* Padding Ad-hoc for Footer Social Icons */
+.cs-p-icons {padding: 0.5em 0.657em;}
